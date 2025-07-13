@@ -6,6 +6,7 @@ import dayjs from 'dayjs'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),   tailwindcss()],
+  base: '/niklaswebprojects/',
   resolve: {
     alias: {
       // force Vite to pull in the static index.mjs (no dynamic chunks)
